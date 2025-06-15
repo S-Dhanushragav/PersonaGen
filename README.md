@@ -1,5 +1,3 @@
-# PersonaGen
- AI-Powered Visual Identity Generator
 # PersonaGen: AI-Powered Visual Identity Generator (Ongoing Project)
 
 ## Summary
@@ -11,7 +9,7 @@ PersonaGen is a generative AI project focused on creating personalized stylized 
 - Generate stylized visuals (cartoon, cyberpunk, manga, etc.)
 - Deploy ComfyUI workflows for backend image adaptation tasks
 
-## 🛠Tools & Stack
+## Tools & Stack
 - Python 3.10+
 - ComfyUI (local setup on CPU)
 - PyTorch (CPU build)
