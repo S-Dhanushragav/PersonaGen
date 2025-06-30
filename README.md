@@ -1,22 +1,30 @@
-# PersonaGen: AI-Powered Visual Identity Generator (Ongoing Project)
+# PersonaGen: AI-Powered Visual Identity Generator (ComfyUI + LoRA)
 
-## Summary
-PersonaGen is a generative AI project focused on creating personalized stylized images using facial data. It leverages ComfyUI workflows and LoRA training to develop lightweight visual identity models.
+**PersonaGen** is a Generative AI project built using **ComfyUI** that enables stylized image generation powered by LoRA (Low-Rank Adaptation) models. The system is designed to create character-based visual outputs based on text prompts with style transfer features.
 
-## Objectives
-- Build and train LoRA models on curated human face datasets
-- Use ComfyUI to design, visualize, and modify workflows
-- Generate stylized visuals (cartoon, cyberpunk, manga, etc.)
-- Deploy ComfyUI workflows for backend image adaptation tasks
+---
 
-## Tools & Stack
-- Python 3.10+
-- ComfyUI (local setup on CPU)
-- PyTorch (CPU build)
-- Dataset: 16 individual faces, 260 images, 512x512 size
-- LoRA Training (node setup in progress)
+## Features
+
+- Text-to-Image generation with Stable Diffusion
+- LoRA-based stylistic enhancement (e.g., anime, cubism)
+- Full CPU-compatible setup (no GPU required)
+- Output preview and structured saving
+- Easily modifiable prompt and sampling settings
+
+---
+
+##  Workflow Components
+
+- **Checkpoint Model**: `v1-5-pruned-emaonly.safetensors`
+- **LoRA Model**: `nekopara-lora-v1.0.safetensors`
+- **Positive Prompt**: `masterpiece, 1girl, neko ears, school uniform, detailed face, soft shading`
+- **Negative Prompt**: `blurry, low quality, distorted, watermark, extra limbs, bad anatomy`
+- **Sampler**: Euler/Karras with adjustable steps and denoising
+
+---
 
 ## Current Progress
-- 🧪 Workflow experiments ongoing
+- Workflow experiments ongoing
 
 
