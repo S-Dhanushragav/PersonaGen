@@ -27,4 +27,16 @@
 ## Current Progress
 - Workflow experiments ongoing
 
+### Terminal Execution (ComfyUI Startup)
+![Terminal Execution](terminal_execution.png)
+
+### Output Folder Structure
+![Output Structure](output_structure.png)
+
+### Sample Generated Image 1
+![Generated Image 1](image1.png)
+
+### Sample Generated Image 2
+![Generated Image 2](image2.png)
+
 
